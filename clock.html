@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="ui.css"/>
+</head>
+<body>
+    <section id="wrapper">
+        <section class="watch">
+            <h1>Stopwatch</h1>
+            <p id="timer">
+                <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>:<span id="mseconds">00</span>
+            </p>
+            <button id="StartBtn" class="btn">Start</button>
+            <button id="StopBtn" class="btn">Stop</button>
+            <hr>
+            <button id="RecordBtn" class="btn">Record</button>
+            <button id="ResetBtn" class="btn">Reset</button>
+        </section>
+        <hr>
+        <ul id="record_list">
+ 
+        </ul>
+    </section>
+    <section></section>
+    <section id="wrapper">
+        <section class="watch">
+            <h1>Timer</h1>
+            <p id="timer2">
+                <span id="t_hours">00</span>:<span id="t_minutes">00</span>:<span id="t_seconds">00</span>:<span id="t_mseconds">00</span>
+            </p>
+            <button id="plushour" class="btn2">+1hour</button>
+            <button id="plusmin" class="btn2">+1min</button>
+            <button id="plussec" class="btn2">+1sec</button>
+            <hr>
+            <button id="StartBtn2" class="btn2">Start</button>
+            <button id="StopBtn2" class="btn2">Stop</button>
+            <button id="ResetBtn2" class="btn2">Reset</button>
+        </section>
+        <hr>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="ui.js"></script>
+</body>
+</html>

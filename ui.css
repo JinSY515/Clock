@@ -1,0 +1,50 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center middle;
+    background: #8ceb6e;
+    padding:20px;
+}
+#wrapper{
+    background:white;
+    border-radius:30px;
+    box-shadow:rgba(113,113,113,0.8) 5px 5px 5px;
+    margin:5px;
+}
+.watch{
+    text-align:center;
+    background:white;
+    padding:50px;
+    width:300px;
+    height:300px;
+    
+}
+
+.btn2{
+    background:white;
+    border:none;
+    padding:5px;
+}
+
+.btn:hover, .btn2:hover{
+    color:wheat;
+}
+h1{
+    color:black;
+}
+
+#timer, #timer2{
+    color:black;
+    text-shadow: rgba(113,113,113,0.8) 3px 3px 3px;
+    font-size:24px;
+}
+
+#record_list{
+    width:300px;
+    text-align:center;
+    padding:0;
+}
+
+#record_list li{
+    list-style:none;
+}
